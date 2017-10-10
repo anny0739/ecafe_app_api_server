@@ -9,13 +9,14 @@ var routes = require('./routes/index'),
     users = require('./routes/users'),
     cafes = require('./routes/cafes'),
     apis = require('./routes/api');
+
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-//db settings
+//db settings~~
 var db = require('./models/db'),
     cafedb = require('./models/cafe');
 
