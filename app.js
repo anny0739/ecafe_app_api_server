@@ -16,7 +16,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-//db settings
+//db settings!!!
 var db = require('./models/db'),
     cafedb = require('./models/cafe');
 
