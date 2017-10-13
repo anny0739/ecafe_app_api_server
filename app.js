@@ -9,6 +9,7 @@ var routes = require('./routes/index'),
     users = require('./routes/users'),
     cafes = require('./routes/cafes'),
     apis = require('./routes/api');
+
 var app = express();
 
 // view engine setup
